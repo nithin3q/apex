@@ -33,7 +33,6 @@ https://apex-five-swart.vercel.app/
 - CSS
 - Framer motion
 ### BACKEND
-- npm install
 - json server
 
 # Installation
@@ -58,6 +57,18 @@ npm install
 ```
 
 npm run start
+```
+4.cd server
+
+```
+npm install
+
+```
+
+5.start server
+```
+npm run start
+
 ```
 ## Project Structure
 Home Page: Select scenarios and start simulations.

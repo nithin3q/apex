@@ -1,17 +1,14 @@
-# `Scenario And Vehicle CRUD App`
+# `Scenario Vehicle CRUD Application`
 
 ## About the project
 
-In this project directory, there is an end-to-end CRUD application made with ReactJS. Users can add scenarios and vehicles, and each scenario can have multiple vehicles. Users can read, create, update, and delete scenarios and vehicles. When a scenario is deleted, all vehicles under it will also be deleted.
+This project directory contains an end-to-end CRUD application built with ReactJS. Users can manage scenarios and vehicles, with each scenario capable of having multiple vehicles. Users can perform operations such as creating, reading, updating, and deleting scenarios and vehicles.
+When a scenario is deleted, all associated vehicles will also be removed.
 
-The application can create, display, update, and delete scenarios and vehicles. A scenario can have multiple vehicles, and vehicles will move when the user clicks a button based on the scenario and vehicle parameters.
-
-On the Home page, users can select the scenarios they have created and start the simulation. When the user clicks the play button, vehicles starts moving based on the direction and speed until the scenario time is over.
-
-The scenario have following fields:
-- Scenario id
-- Scenario name
-- Time
+## Key Features
+Scenarios: Manage scenarios with unique IDs, names, and durations.
+Vehicles: Manage vehicles with unique IDs, names, initial positions (X and Y), speed, direction (Towards, Backwards, Upwards, and Downwards), and color.
+Simulation: Start a simulation where vehicles move based on their parameters until the scenario time is over.
 
 The Vehicle have following fields:
 - Vehicle id
@@ -24,7 +21,6 @@ The Vehicle have following fields:
 
 json-server is used for storing data use.
 
-For animation I have used Framer motion library.
 
 ## Live project link
 

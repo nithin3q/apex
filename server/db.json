@@ -1,0 +1,82 @@
+{
+  "scenarios": [
+    {
+      "id": "1",
+      "name": "parking",
+      "time": "7",
+      "vehicles": [
+        "5"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "traffic",
+      "time": "6",
+      "vehicles": [
+        "742",
+        "300",
+        "887",
+        "838"
+      ]
+    },
+    {
+      "id": "909",
+      "name": "hello",
+      "time": "7",
+      "vehicles": []
+    },
+    {
+      "id": "743",
+      "name": "theatre",
+      "time": "7",
+      "vehicles": []
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "5",
+      "name": "1234",
+      "speed": "2",
+      "positionX": "330",
+      "positionY": "99",
+      "direction": "backwards",
+      "scenarioId": "1"
+    },
+    {
+      "id": "742",
+      "name": "chinnu",
+      "speed": "8",
+      "positionX": "44",
+      "positionY": "28",
+      "direction": "downwards",
+      "scenarioId": "2"
+    },
+    {
+      "id": "300",
+      "name": "drum",
+      "speed": "3",
+      "positionX": "66",
+      "positionY": "90",
+      "direction": "backwards",
+      "scenarioId": "2"
+    },
+    {
+      "id": "887",
+      "name": "hanok",
+      "speed": "9",
+      "positionX": "56",
+      "positionY": "87",
+      "direction": "towards",
+      "scenarioId": "2"
+    },
+    {
+      "id": "838",
+      "name": "i dont know",
+      "speed": "20",
+      "positionX": "234",
+      "positionY": "435",
+      "direction": "downwards",
+      "scenarioId": "2"
+    }
+  ]
+}

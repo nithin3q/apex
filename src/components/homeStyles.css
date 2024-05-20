@@ -1,0 +1,102 @@
+.home {
+    /* height: 78rem; */
+    position: relative;
+    margin-left: 9.1rem;
+    background: var(--black);
+    padding-top: 1rem;
+  }
+  
+  .home .info {
+    color: var(--white);
+  }
+
+
+  /* .home select {
+    width: 13.4rem !important;
+  } */
+  
+  #homeSelect {
+    font-size: 16px !important;
+    width: fit-content !important;
+    padding: 12px 30px !important;
+    display: block;
+    margin-left: 40px;
+    border: 1px solid #034b71; /* Blue border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: var(--darkgrey);
+    color: gray !important; /* Gray font color */
+    appearance: none; /* Remove default arrow */
+    -webkit-appearance: none; /* Remove default arrow for Safari */
+    -moz-appearance: none; /* Remove default arrow for Firefox */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="blue" d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 0px center; /* Position the arrow */
+    padding-right: 30px; /* Adjust padding to make room for the arrow */
+    transition: border-color 0.3s ease-in-out; /* Smooth transition for border color */
+  }
+  
+  #homeSelect option {
+    font-size: 16px !important;
+    color: gray !important; /* Gray font color for options */
+    background: var(--darkgrey);
+  }
+  
+  #homeSelect:hover,
+  #homeSelect:focus,
+  #homeSelect:active {
+    border-color: #034b71 !important; /* Blue border on hover, focus, and active */
+    outline: none; /* Remove default outline */
+    color: gray !important; /* Ensure font color stays gray */
+  }
+  
+  
+  .home .vehicles {
+    width: 94.7%;
+    margin: 1rem auto 0 auto;
+  }
+  
+  .home .info {
+    margin-top: 70px;
+  }
+  
+  /* .carGrid {
+    background: conic-gradient(from 90deg at 1px 1px,#0000 90deg,#268703 0) 
+    0  0/60px 60px ;;
+    position: relative;
+    margin: 4.5rem auto;
+    height: 51.5rem;
+  } */
+
+  .controllerBtns {
+    top: -34px;
+    position: absolute;
+    left: 50%;
+  }
+  
+  .enlargeBtn {
+    position: absolute;
+    color: white;
+    right: 7px;
+    top: -28px;
+    opacity: 0.7;
+    cursor: grab;
+  }
+  
+  .enlargeBtn:hover {
+    opacity: 1;
+  }
+  
+  .controllerBtns {
+    display: flex;
+    width: 100%;
+    /* padding: 10px; */
+    position: absolute;
+    margin-top: -10px;
+  }
+  
+  .controllerBtns .button {
+    flex: 1;
+    margin: 0 5px;
+  }
+  

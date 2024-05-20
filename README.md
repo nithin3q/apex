@@ -6,9 +6,9 @@ This project directory contains an end-to-end CRUD application built with ReactJ
 When a scenario is deleted, all associated vehicles will also be removed.
 
 ## Key Features
--Scenarios: Manage scenarios with unique IDs, names, and durations.
--Vehicles: Manage vehicles with unique IDs, names, initial positions (X and Y), speed, direction (Towards, Backwards, Upwards, and Downwards), and color.
--Simulation: Start a simulation where vehicles move based on their parameters until the scenario time is over.
+- Scenarios: Manage scenarios with unique IDs, names, and durations.
+- Vehicles: Manage vehicles with unique IDs, names, initial positions (X and Y), speed, direction (Towards, Backwards, Upwards, and Downwards), and color.
+- Simulation: Start a simulation where vehicles move based on their parameters until the scenario time is over.
 
 The Vehicle have following fields:
 - Vehicle id

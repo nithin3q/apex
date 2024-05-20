@@ -1,4 +1,4 @@
-# `Scenario Vehicle CRUD Application`
+# `Scenario and Vehicle Management App`
 
 ## About the project
 
